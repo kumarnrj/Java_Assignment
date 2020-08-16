@@ -10,6 +10,8 @@ import jdk.nashorn.internal.runtime.ECMAException;
         Also design the main methods which pass actual parameters to test the Calculator class.
 
         */
+
+
 public class Calculator {
     public static void main(String[] args) {
         // creating the lambda expression for add
@@ -23,6 +25,7 @@ public class Calculator {
 
        // Creating the lambda expression for safeDivision
        SafeDivision LambdasafeDiv = (int a,int b)->{
+           // checking if the divider is greater than zero or not
          if(b==0)
              System.out.println("Cannot divide by zero");
          else
