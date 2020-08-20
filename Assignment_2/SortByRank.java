@@ -9,7 +9,7 @@ public class SortByRank {
     public static void main(String[] args) {
         int[] arr = { 4, 2, 70, 8,9,2};
 
-        System.out.println("Array before: ");
+        System.out.println("Array before:");
         for(int el:arr){
             System.out.print(el+" ");
         }
