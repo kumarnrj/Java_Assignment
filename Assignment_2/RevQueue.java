@@ -25,7 +25,7 @@ public class RevQueue {
             queue.remove();
             st.push(val);
         }
-       
+
         while(!st.empty()){
             System.out.print(st.pop()+" ");
         }
