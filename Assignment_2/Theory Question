@@ -1,0 +1,139 @@
+1) What do you mean by a Data structure?
+
+Ans: A data Structure is way of collection of data so that the operation on the data can be performed efficiently.
+    i.e insertion, deletion and searching.
+    eg. A array is data structure and if we want to insert in the  between an element in th array then we have to shift all the
+        element to the right side.
+        But if we use LinkedList rather than Array then we do not have to shift the element.
+
+
+2) What are some of the applications of DS?
+
+Ans: The following are the application of DS
+      -> Array
+      -> LinkedList
+      -> Stack
+      -> Queue
+      -> Tree
+      -> Graph
+      -> Hash Table
+
+3) What are the advantages of a Linked list over an array?
+
+Ans: The following are the advantages of a linked list over an array:
+     -> Dynamic size  whereas in array the size is fixed.
+     -> Deletion and insertion is easy   whereas in array it is a tedious task because we have to shift the element.
+
+
+4) Write the syntax in C to create a node in the singly linked list.
+
+Ans: Syntax to create a singly linked list node:
+
+       struct Node
+       {
+            int data;
+            Node *next;
+       }
+
+
+5) What is the use of a doubly-linked list when compared to that of a singly
+   linked list?
+
+Ans: The following are the advantages of using doubly linked list
+      -> It can traverse both side forward and backword.
+      -> Deletion can be done very easily if pointer to the node is given.
+      -> More efficient than signly linked list for accessing the data.
+      -> If we need better performance while searching and memory is not a problem then doubly linked list is very efficient.
+
+
+6) What is the difference between an Array and Stack?
+
+Ans: The difference between array and stack:-
+
+     -> Stack are based on the LIFO(Last In First Out) principle while array are the based on the index.
+     -> Insertion and deletion can be done only from the top of the stack while in array insertiona and deletion can
+        be done from any index.
+     -> Stack is dynamic while array are fixed in size.
+     -> Stack can contain any type data while array can contain only homogeneous data.
+
+
+7) What are the minimum number of Queues needed to implement the priority
+queue?
+
+Ans: The minimum number if Queues are needed to implement the priority queue is 2.
+      One queue for storing the element and other one for storing the prioity.
+
+
+8) What are the different types of traversal techniques in a tree?
+
+Ans:   Types of traversal in tree
+       -> preorder   (root,left,right)
+       -> inorder    (left,root,right)
+       -> postorder  (left,right,root)
+
+
+9) Why it is said that searching a node in a binary search tree is efficient than that of
+   a simple binary tree?
+
+Ans: In a binary Search tree elements are arrange in such a manner that the elements greater than the root element are the
+     right side of the tree( right child ) and the elements less than root element are left side of the tree(left child).
+     Whereas binary tree doesn't follow the same rule.
+     Due the this property of binary search searching is very efficient because because by comparing the root node
+     we can reach to the desire location whereas in case of binary tree we have to traverse the complete tree in order
+     to seacrh an element in the tree.
+
+
+10) What are the applications of Graph DS?
+
+Ans:
+     -> Google maps uses graphs for building transportation systems, where intersection of two(or more) roads are considered
+        to be a vertex and the road connecting two vertices is considered to be an edge, thus their navigation system is based
+        on the algorithm to calculate the shortest path between two vertices.
+     -> In Facebook, users are considered to be the vertices and if they are friends then there is an edge running between them.
+         Facebook’s Friend suggestion algorithm uses graph theory. Facebook is an example of undirected graph.
+     -> In World Wide Web, web pages are considered to be the vertices. There is an edge from a page u to other page v if
+        there is a link of page v on page u. This is an example of Directed graph. It was the basic idea behind Google Page
+        Ranking Algorithm.
+     -> In Operating System, we come across the Resource Allocation Graph where each process and resources are considered to
+        be vertices. Edges are drawn from resources to the allocated process, or from requesting process to the requested
+        resource. If this leads to any formation of a cycle then a deadlock will occur.
+
+
+
+11) Can we apply Binary search algorithm to a sorted Linked list?
+Ans:  Yes, It is possible to sort an linked list using binary search because we know the count of the nodes in linked list
+      but we can access only one node at a time.
+
+
+
+12) When can you tell that a Memory Leak will occur?
+
+Ans: Memory leak can be defined as when  a computer program incorrectly manages memory allocations in a way that memory which is no
+     longer needed is not released. Memory leak may occur when a object created in the heap and it is not available for garbage
+     collector ( the allocated memory to the object is not released ) and it happen frequently that no memory is available.
+
+
+
+13) How will you check if a given Binary Tree is a Binary Search Tree or not?
+
+Ans: A binary seach tree has the property that all the element greater than root will be right subtree of BST and
+     the elements less than root will be in left subtree. If our binary tree contain such property then we can say that
+     the binary tree is a binary search tree.
+
+14) Which data structure is ideal to perform recursion operation and why?
+
+Ans: Stack. Because of its LIFO (Last In First Out) property it remembers its 'caller' so knows whom to return when the
+     function has to return. Recursion makes use of system stack for storing the return addresses of the function calls
+
+
+15) What are some of the most important applications of a Stack?
+
+Ans: Applications of stack:
+     ->	Expression handling
+     ->	To check parenthesis matching.
+     ->	Backtracking procedure
+     ->	Memory Management.
+
+16) Convert the below given expression to its equivalent Prefix And Postfix notations.
+
+Ans:  expression is not given
